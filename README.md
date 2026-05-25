@@ -105,8 +105,3 @@ lexi-ai/
 This project is licensed under the [MIT License](LICENSE).
 
 **Developed by Merthan Nizam** — 2025
-
-
-`lexi-ai.rar` dosyasını şimdilik bırakabiliriz. İleride istersen sileriz.
-
-Şimdi README’yi güncellemek ister misin?
