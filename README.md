@@ -1,62 +1,78 @@
-# Lexi AI 🤖
 
-**Türkiye'nin İlk %100 Offline CPU AI Asistanı**
+# Lexi AI ??
 
-Modern, gerçek zamanlı ve tamamen yerel çalışan AI chatbot uygulaması.
+**Turkiye'nin ?lk %100 Offline CPU AI Asistan?**
 
-![Proje Yapısı](Proje%20Yapısı.jpg)
+Modern, gercek zamanl? ve tamamen yerel cal??an AI chatbot uygulamas?.
 
-## ✨ Features
+![Proje Yap?s?](Proje%20Yap?s?.jpg)
 
-- **Fully Offline** - No internet required
-- **CPU Only** - Works without GPU (Normal computers are enough)
-- Real-time chat with WebSocket
+## ? Features
+
+- **Fully Offline** — No internet required
+- **CPU Only** — Works without GPU
+- Real-time chat (WebSocket)
 - User authentication (Register / Login)
 - Conversation history
 - Live system monitoring (CPU, RAM, Model status)
-- Fully Turkish-speaking, friendly and smart assistant
+- Fully Turkish-speaking friendly AI assistant
 
-## 🎯 AI Model Usage
+## ?? AI Model Usage
 
 - Default model: **`llama3.2:3b-instruct-q4_K_M`**
-- You can use **any Ollama model** you want
-- Model selection depends on your computer's power:
-  - Low-end PCs → 3B models
-  - Mid-range → 7B models  
-  - High-end → 13B+ models
+- You can use **any Ollama model** you want according to your computer's power.
+- Low-end PC → 3B models  
+- Mid-range → 7B models  
+- High-end → 13B+ models
 
-> The stronger your computer, the better and larger models you can run.
+> The stronger your computer, the better models you can run.
 
 ---
 
-## 🚀 Quick Start
+## ?? Quick Start
 
-### 1. Clone the Project
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/merthan-nizam/lexi-ai
+git clone https://github.com/merthan-nizam/lexi-ai.git
 cd lexi-ai
-2. Install Requirements
-Bashpip install -r requirements.txt
-3. Install Ollama
-Download and install Ollama from ollama.com
-Then pull a model:
-Bashollama pull llama3.2:3b-instruct-q4_K_M
-4. Run the Application
-Bashpython main.py
-Open your browser and go to: http://localhost:8001
+```
 
-🛠 Technologies
+### 2. Install Requirements
+```bash
+pip install -r requirements.txt
+```
 
-Backend: FastAPI
-Real-time: WebSocket
-AI Engine: Ollama (Local LLMs)
-Frontend: HTML, CSS, JavaScript
-Database: SQLite
+### 3. Install Ollama
+- [Ollama](https://ollama.com)'y? indir ve kur
+- Onerilen model:
+```bash
+ollama pull llama3.2:3b-instruct-q4_K_M
+```
 
+### 4. Run the Application
+```bash
+python main.py
+```
 
-📁 Project Structure
-Bashlexi-ai/
-├── main.py                 # Main file
+Uygulamay? taray?c?da ac?n: **http://localhost:8001**
+
+---
+
+## ?? Technologies
+
+- **Backend**: FastAPI
+- **Real-time**: WebSocket
+- **AI Engine**: Ollama (Local LLMs)
+- **Frontend**: HTML, CSS, JavaScript
+- **Database**: SQLite
+
+---
+
+## ?? Project Structure
+
+```
+lexi-ai/
+├── main.py
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
@@ -64,26 +80,31 @@ Bashlexi-ai/
 ├── README.md
 ├── templates/
 ├── static/
-│   ├── css/
-│   └── js/
 ├── config/
 ├── auth/
 ├── database/
 ├── websocket/
 └── chatbot/
+```
 
-📝 Türkçe Açıklama (Turkish)
-Lexi AI, tamamen bilgisayarınızda çalışan, internet gerektirmeyen, sadece CPU ile çalışan bir yapay zeka asistanıdır. FastAPI ve Ollama teknolojileri kullanılarak geliştirilmiştir.
-Özellikle düşük ve orta seviye bilgisayarlar için optimize edilmiştir.
+---
 
-🔧 Configuration
+## ?? Turkce Ac?klama
 
-Copy .env.example to .env
-Edit the SECRET_KEY with a strong random string
+**Lexi AI**, tamamen bilgisayar?n?zda cal??an, internet gerektirmeyen, sadece CPU ile cal??an Turkce bir yapay zeka asistan?d?r. Ozellikle du?uk ve orta seviye bilgisayarlar icin optimize edilmi?tir.
+
+---
+
+## ?? Configuration
+
+`.env.example` dosyas?n? `.env` olarak kopyalay?n ve `SECRET_KEY` de?erini guclu bir ?ifre ile de?i?tirin.
+
+---
+
+## ?? License
+
+This project is licensed under the [MIT License](LICENSE).
+
+**Developed by Merthan Nizam** — 2025
 
 
-📄 License
-This project is licensed under the MIT License.
-
-Developed by Merthan Nizam
-2026
