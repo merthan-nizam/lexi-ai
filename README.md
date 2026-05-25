@@ -1,13 +1,12 @@
+# Lexi AI 🤖
 
-# Lexi AI ??
+**Türkiye'nin İlk %100 Offline CPU AI Asistanı**
 
-**Turkiye'nin ?lk %100 Offline CPU AI Asistan?**
+Modern, gerçek zamanlı ve tamamen yerel çalışan AI chatbot uygulaması.
 
-Modern, gercek zamanl? ve tamamen yerel cal??an AI chatbot uygulamas?.
+![Proje Yapısı](Proje%20Yapısı.jpg)
 
-![Proje Yap?s?](Proje%20Yap?s?.jpg)
-
-## ? Features
+## ✨ Features
 
 - **Fully Offline** — No internet required
 - **CPU Only** — Works without GPU
@@ -17,7 +16,7 @@ Modern, gercek zamanl? ve tamamen yerel cal??an AI chatbot uygulamas?.
 - Live system monitoring (CPU, RAM, Model status)
 - Fully Turkish-speaking friendly AI assistant
 
-## ?? AI Model Usage
+## 🎯 AI Model Usage
 
 - Default model: **`llama3.2:3b-instruct-q4_K_M`**
 - You can use **any Ollama model** you want according to your computer's power.
@@ -29,7 +28,7 @@ Modern, gercek zamanl? ve tamamen yerel cal??an AI chatbot uygulamas?.
 
 ---
 
-## ?? Quick Start
+## 🚀 Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -43,8 +42,8 @@ pip install -r requirements.txt
 ```
 
 ### 3. Install Ollama
-- [Ollama](https://ollama.com)'y? indir ve kur
-- Onerilen model:
+- [Ollama](https://ollama.com)'yı indir ve kur
+- Önerilen model:
 ```bash
 ollama pull llama3.2:3b-instruct-q4_K_M
 ```
@@ -54,11 +53,11 @@ ollama pull llama3.2:3b-instruct-q4_K_M
 python main.py
 ```
 
-Uygulamay? taray?c?da ac?n: **http://localhost:8001**
+Uygulamayı tarayıcıda açın: **http://localhost:8001**
 
 ---
 
-## ?? Technologies
+## 🛠 Technologies
 
 - **Backend**: FastAPI
 - **Real-time**: WebSocket
@@ -68,7 +67,7 @@ Uygulamay? taray?c?da ac?n: **http://localhost:8001**
 
 ---
 
-## ?? Project Structure
+## 📁 Project Structure
 
 ```
 lexi-ai/
@@ -89,22 +88,25 @@ lexi-ai/
 
 ---
 
-## ?? Turkce Ac?klama
+## 📝 Türkçe Açıklama
 
-**Lexi AI**, tamamen bilgisayar?n?zda cal??an, internet gerektirmeyen, sadece CPU ile cal??an Turkce bir yapay zeka asistan?d?r. Ozellikle du?uk ve orta seviye bilgisayarlar icin optimize edilmi?tir.
-
----
-
-## ?? Configuration
-
-`.env.example` dosyas?n? `.env` olarak kopyalay?n ve `SECRET_KEY` de?erini guclu bir ?ifre ile de?i?tirin.
+**Lexi AI**, tamamen bilgisayarınızda çalışan, internet gerektirmeyen, sadece CPU ile çalışan Türkçe bir yapay zeka asistanıdır. Özellikle düşük ve orta seviye bilgisayarlar için optimize edilmiştir.
 
 ---
 
-## ?? License
+## 🔧 Configuration
+
+`.env.example` dosyasını `.env` olarak kopyalayın ve `SECRET_KEY` değerini güçlü bir şifre ile değiştirin.
+
+---
+
+## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
 **Developed by Merthan Nizam** — 2025
 
 
+`lexi-ai.rar` dosyasını şimdilik bırakabiliriz. İleride istersen sileriz.
+
+Şimdi README’yi güncellemek ister misin?
